@@ -1,0 +1,464 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #F6F6F6;
+  font-family: "Trebuchet MF", Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+header{
+  justify-content: center;
+  width: 100%;
+  height: 40vw;
+  background-image: url(../images/back_img.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  margin: auto;
+  background-attachment: fixed;
+  position: relative;
+
+  }
+header span{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2226;
+  }
+    .menu-button{
+      display: none;
+    }
+    .logo {
+      color: white;
+      text-align: center;
+      font-size: 11vw;
+      text-shadow: 2px 2px 7px #000000;
+      font-family: 'Staatliches', cursive;
+      text-decoration: none;
+      }
+    .logIn{
+      top: 0px;
+      right: 0px;
+      width: 100px;
+      height: 100px;
+      z-index: 2;
+      transition: 0.3s;
+      padding: 5px;
+      border-bottom-left-radius: 0;
+      background-color: black;
+      z-index: 4;
+      border-bottom-left-radius: 50%;
+}
+.profile{
+  top: 0px;
+  right: 0px;
+  font-size: 20px;
+  z-index: 2;
+  background-color: black;
+  z-index: 4;
+  color: white;
+  border-bottom-left-radius: 10%;
+}
+.profile p{
+  margin: 15px;
+}
+  .logIn img{
+    height: 80px;
+    width: 80px;
+    padding-left: 15px;
+}
+.logInForm{
+  position:absolute;
+  font-size: 60px;
+  text-align:center;
+  height:70vw;
+  width: 50vw;
+  top: -82vw;
+  left: 30vw;
+  margin: 0 auto;
+  transition: 0.2s;
+  background-color: #efefef;
+}
+.logInForm p{
+  margin: 20px auto;
+}
+.menu-grad{
+  display: grid;
+  background-color: #121221;
+  height:55px;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 0px 1px 1px #000000;
+}
+.menu{
+  display: grid;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  min-width: 970px;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+  .paragraph{
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+  }
+  .paragraph p{
+    height: 55px;
+    border-bottom: 5px solid #1110;
+    opacity: 1;
+    margin: 0;
+    text-align: center;
+    transition: 0.2s;
+  }
+  .paragraph :hover{
+    border-bottom: 5px solid #ffff;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .paragraph a{
+    text-decoration: none;
+    color: #F6F6F6;
+  }
+
+.midle{
+
+  background-color: #fafafa;
+  padding: 70px 0;
+  width:100%;
+  margin: 0 auto;
+  }
+  .block{
+    width:100%;
+    transition: 0.1s;
+    }
+.preview{
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0px;
+    grid-template-columns:repeat(auto-fill, 240px);
+    grid-auto-rows: 380px;
+    grid-gap: 30px;
+    justify-content: center;
+    }
+  .item{
+    position: relative;
+    background-color: #c4c4c4;
+    background-image: url(../images/halati.png);
+    background-size: cover;
+    background-position: center;
+      overflow: hidden;
+
+  }
+  .item span
+{
+
+  text-align: center;
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    align-content: flex-end;
+    color: #fff;
+  transition: .5s;
+    padding-top:400px;
+}
+.item span:hover
+{
+    padding-top: 300px;
+    transition: .4s;
+    background: linear-gradient(#0000, #0006, #0008);
+}
+  .name{
+    height: 60px;
+  }
+  .name span{
+    border-bottom: 4px solid #000000;
+    font-family: Montserrat,sans-serif;
+    font-size: 55px;
+    margin: 0 14vw;
+    text-shadow: 0 1px 1px #000;
+  }
+footer{
+  justify-content: center;
+  grid-template-columns: 160px 1fr 200px;
+  width: 100%;
+  height: 60px;
+  background: #121221;
+  padding-top: 10px;
+}
+.contacts {
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  width: 160px;
+  margin-left: 20px;
+}
+.media{
+  height: 50px;
+  background-size: cover;
+  width: 50px;
+}
+.models{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  height: 50px;
+}
+.adress{
+  justify-content: center;
+  grid-template-columns: 1fr 50px;
+  height: 50px;
+ background-size: contain;
+ margin-right: 10px;
+
+}
+.adress p{
+  line-height:50px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: white;
+}
+.adress-img{
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.adress:hover{
+cursor: pointer;
+}
+.map{
+  height: 100vh;
+  width: 100vw;
+}
+.back{
+  z-index: 6;
+  position: absolute;
+  height: 4vw;
+  width: 100%;
+  background:#121221;
+}
+.back p{
+  text-align: center;
+  margin: 0 0;
+   color:white;
+   line-height: 4vw;
+   font-size: 3vw;
+}
+.menuMobile{
+  height: 100vh;
+  width: 600px;
+  position: fixed;
+  left:-600px;
+  top:0;
+  transition: 0.3s;
+  background-color: black;
+}
+.paragraphMobile{
+  color: white;
+  line-height: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+  background-color: #121221;
+  transition: 0.3s;
+}
+.paragraphMobile a{
+  text-decoration: none;
+  color: #F6F6F6;
+}
+.shadow{
+  position: fixed;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.formRegistration{
+  position: absolute;
+  font-size: 60px;
+  text-align: center;
+  width: 50vw;
+  top: 4vw;
+  left: 25vw;
+  margin: 0 auto;
+  transition: 0.2s;
+  background-color: #efefef;
+}
+.formRegistration p{
+  margin: 5vw auto;
+}
+.AdminForm{
+  position: absolute;
+  height: 600px;
+  width: 300px;
+  left: 50%;
+  transform: translate(-50%,0);
+  top: 4vw;
+}
+.adminBtn{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  z-index: 2;
+  padding: 5px;
+  border-bottom-right-radius:10%;
+  background-color: white;
+  color: black;
+  z-index: 4;
+}
+@media(max-width:1200px) {
+  .adminBtn{
+    display: none;
+  }
+.interface{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+.menu-button{
+    width: 11vw;
+    height: 11vw;
+    display: none;
+    top:0;
+    left: 0;
+    z-index: 2;
+    transition: 0.3s;
+    border-bottom-right-radius: 50%;
+    background-color: black;
+    display: block;
+}
+.menu-button img{
+  width: 9vw;
+  padding-left: 0.5vw;
+}
+.logIn{
+  width: 11vw;
+  height: 11vw;
+}
+.logIn img{
+  width: 9vw;
+  height: 9vw;
+  padding-left:1.5vw;
+}
+
+.midle{
+  padding: 0;
+  grid-gap: 0;
+  width: 100vw;
+}
+.preview{
+  grid-gap: 5vw;
+  width: 100vw;
+  overflow: hidden;
+  grid-auto-flow: row;
+  grid-template-columns:repeat(auto-fill, 33vw);
+  grid-auto-rows:44vw;
+  justify-content: center;
+
+
+}
+.item{
+  display: inline-block;
+}
+.item span
+{
+    padding-top: 33vw;
+    background: linear-gradient(#0000, #0006, #0008);
+    font-size: 20px;
+}
+.name span{
+    font-family: Montserrat,sans-serif;
+  font-size: 55px;
+  margin: 0 14.5vw;
+
+}
+.back{
+    height: 7vw;
+  }
+.back p{
+     line-height: 7vw;
+     font-size: 3vh;
+     margin: 0 auto;
+  }
+  .menu-grad{
+    display: none;
+  }
+  header{
+    height: 30vw;
+
+    }
+    .logo p{
+      margin-top: 90px;
+    }
+    .open{
+        transition: 0.7s;
+        top: 12vw;
+    }
+.formRegistration{
+  top:7vw;
+  }
+
+}
+
+
+
+/*
+Добавляемые классы
+*/
+a{
+  text-decoration: none;
+}
+.grid{
+  display: grid;
+}
+.show{
+  pointer-events: auto;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.fixed{
+  position: fixed;
+}
+.noscroll{
+    overflow-y: hidden;
+}
+.hidenLeft{
+  left:-130px;
+  transition: 0.3s;
+}
+.hidenRight{
+  Right:-130px;
+  border-radius: 0;
+  transition: 0.3s;
+}
+.menuOpen{
+  left: 600px;
+  transition: 0.3s;
+}
+.menuMobileOpen{
+  left:0;
+  transition: 0.3s;
+}
+.fixedTop{
+    position:fixed;
+    top:0;
+    z-index: 3;
+}
+.open{
+    transition: 0.7s;
+    top: 100px;
+}
