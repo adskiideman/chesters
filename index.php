@@ -28,7 +28,7 @@ if( isset($data['input']) )
   <head>
     <meta charset="utf-8">
     <title>
-      MER4
+      CHESTER
     </title>
 
     <link href="css/main.css" rel="stylesheet">
