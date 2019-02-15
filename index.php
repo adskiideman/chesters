@@ -157,7 +157,6 @@ if( isset($data['input']) )
       </div>
       <a href="https://vk.com/id124128861">
       <div class="models">
-        ПИСЬКА
       </div>
       </a>
         <a href="contacts.html">

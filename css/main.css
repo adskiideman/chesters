@@ -316,8 +316,8 @@ cursor: pointer;
   z-index: 2;
   padding: 5px;
   border-bottom-right-radius:10%;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   z-index: 4;
 }
 @media(max-width:1200px) {
