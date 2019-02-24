@@ -1,3 +1,15 @@
+@font-face {
+font-family: "Montserrat";
+src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+ }
+@font-face{
+ font-family: "Staatliches";
+ src: url("../fonts/Staatliches-Regular.ttf") format("truetype");
+ font-style: normal;
+font-weight: normal;
+}
 body{
   margin: 0;
   padding: 0;

@@ -32,9 +32,7 @@ if( isset($data['input']) )
     </title>
 
     <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="/libs/jquery-3.3.1.min.js"></script>
   </head>
   <body>
       <header id="header" >

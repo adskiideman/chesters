@@ -33,7 +33,7 @@
       {
         $errors[] = 'Пользователь с таким Email уже существует';
       }
-      if( empty($errors)){
+      if(empty($errors)){
         $user = R::dispense('users');
         $user->login = $data['login'];
         $user->email = $data['email'];
